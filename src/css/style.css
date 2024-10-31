@@ -1,0 +1,40 @@
+@import url(./reset.css);
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(134, 205, 247);
+    user-select: none;
+    font-family: monospace;
+
+}
+h1 {
+    color: rgb(77, 53, 156);
+}
+.logo {
+    height: 100px;
+    width: 100px;
+}
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding: 40px 60px;
+    border-radius: 10px;
+}
